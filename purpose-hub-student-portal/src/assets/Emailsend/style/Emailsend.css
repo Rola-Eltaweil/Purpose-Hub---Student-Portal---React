@@ -1,0 +1,378 @@
+.image-download {
+    height: 150px;
+    width: 180px;
+}
+.resend {
+    color: #3AA5BE;
+}
+
+.Emailsend-div {
+    background-color: rgba(255, 255, 255, 0.7); 
+   backdrop-filter: blur(7px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:  1.5rem;
+    position: absolute;
+    right: 340px;
+    padding: 70px 0px;
+    padding-bottom: 100px;
+    z-index: 1;
+    width: 430px;
+}
+.image-sendemail {
+    max-width: 670px;
+}
+
+.paragraph-Emailsend {
+    
+    color:#525252 ;
+    font-size: 16px;
+    font-weight:400 ;
+    line-height:1.438 ;
+    text-align: center;
+    margin: auto;
+    max-width: 340px;
+
+}
+.paragraph-Emailsend span {
+    color: #1F1F1F;
+}
+.paragraph-Emailsend2 {
+    margin-top: 10px;
+     color:#525252 ;
+    font-size: 16px;
+    font-weight:400 ;
+    line-height:1.438 ;
+    text-align: center;
+}
+
+.icon-email-1 {
+    top: 220px;
+    left: -130px;
+}
+
+.icon-email-2 {
+    top: 100px;
+    left: 180px;
+}
+
+.icon-email-3 {
+    top: 440px;
+    left: 260px;
+}
+
+
+
+@media  (max-width:1290px) {
+   .right-section {
+    position: relative;
+   }
+   .right-section  {
+    max-width: 440px;
+   }
+
+   .Emailsend-div {
+    right: 210px;
+   }
+ .icon-email-1 {
+    top: 160px;
+    left: -90px;
+ }
+ .icon-email-3 {
+    top: 370px;
+ }
+
+
+   .container-loginpage {
+    max-width: 70%;
+    margin: auto;
+   }
+   .right-section img {
+    width: 550px;
+   }
+   .headeing-content {
+       padding-top: 30px;   
+
+   }
+   form {
+    margin: auto;
+    padding:32px 60px ;
+    
+}
+
+.Emailsend-div{
+    max-height: 550px;
+}
+
+input {
+    max-height: 43px;
+}
+.Emailsend-div h2 {
+    font-size: 1rem;
+    margin-top: 0;
+}
+.image-logo  {
+    margin-top: 0px;
+     height: 45px;
+    width: 45px;
+}
+.Google .google-image {
+    height: 1rem;
+    width: 1rem;
+}
+.Google {
+    padding: 0px;
+    height: 40px;
+
+}
+
+.paragraph-Emailsend {
+    font-size: 14px;
+}
+
+
+.input-details .label {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.forget-pass {
+    font-size: 15px;
+}
+}
+
+
+
+@media  (max-width:1050px) {
+
+.Emailsend-div{
+    max-height: 550px;
+}
+
+input {
+    max-height: 43px;
+}
+.Emailsend-div h2 {
+    font-size: 1rem;
+    margin-top: 0;
+}
+.image-logo  {
+    margin-top: 0px;
+     height: 45px;
+    width: 45px;
+}
+.Google .google-image {
+    height: 1rem;
+    width: 1rem;
+}
+.Google {
+    padding: 0px;
+    height: 40px;
+
+}
+
+.paragraph-Emailsend ,.paragraph-Emailsend2 {
+    font-size: 14px;
+}
+
+.input-details .label {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.forget-pass {
+    font-size: 15px;
+}
+.circle {
+  left: 30%; 
+  top: 120%;
+  transform: translate(-50%, -50%);
+  width: 220vw; 
+}
+ input::placeholder {
+    font-size: 14px;
+ }
+
+
+}
+
+
+
+
+
+
+
+@media  (max-width:880px) {
+.circle {
+  left: 30%; 
+  top: 120%;
+  transform: translate(-50%, -50%);
+  width: 220vw; 
+}
+ .right-section {
+    max-width: 40%;
+ }
+ .Emailsend-div{
+    max-width: 70%;
+    margin: auto;
+ }
+ .icon-email-1 ,.icon-email-2,.icon-email-3 {
+  display: none;
+ }
+
+}
+
+
+
+
+@media (max-width: 750px) {
+  .circle {
+    left: 30%; 
+    top: 130%;
+    transform: translate(-50%, -50%);
+    width: 220vw;
+  }
+
+ .right-section img {
+    max-width: 480px;
+ }
+ .right-section {
+    position: absolute;
+    right: 300px;
+    width: 300px;
+ }
+ .small-icon {
+    display: none;
+ }
+
+  .container-loginpage {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: auto; 
+    margin: auto;
+  }
+
+  .container-loginpage {
+    max-width: 65%;
+  }
+
+
+ 
+
+  .Emailsend-div {
+    width: 100%; 
+    margin:0 auto;
+    right: 0px;
+    min-width: 100%;
+        
+  }
+
+  .input-password {
+    width: 100%;
+  }
+}
+
+  
+@media (max-width: 600px) {
+  .circle {
+    left: 30%; 
+    top: 133%;
+    transform: translate(-50%, -50%);
+    width: 260vw;
+
+  }
+
+ .right-section img {
+    max-width: 400px;
+ }
+ .right-section-Emailsend {
+    left: 0px;
+    width: 300px;
+ }
+ .small-icon {
+    display: none;
+ }
+
+  .container-loginpage {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: auto; 
+    margin: auto;
+  }
+  .container-loginpage {
+    max-width: 80%;
+  }
+
+ 
+
+  .Emailsend-div {
+    width: 100%; 
+    margin:0 auto;
+    right: 0px;
+    min-width: 100%;
+        
+  }
+  .headeing-content .title {
+    font-size: 18px;
+  }
+   .headeing-content .paragraph-Emailsend,.paragraph-Emailsend2 {
+    font-size: 14px;
+    max-width: 80%;
+  }
+  .paragraph-Emailsend2 {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .Emailsend-div{
+    padding: 50px 0px;
+  }
+ 
+  
+}
+
+
+@media (max-width: 480px) {
+ 
+.circle{
+    left: 30%; 
+    top: 130%;
+    transform: translate(-50%, -50%);
+    width: 260vw;
+}
+ .right-section-Emailsend {
+    left: -10px;
+    width: 300px;
+ }
+ .image-download {
+    height: 100px;
+    width: 140px;
+ }
+
+
+ 
+  .container-loginpage {
+    max-width: 85%;
+  }
+
+}
+
+
+
+@media (max-width: 400px) {
+ 
+ .right-section-Emailsend {
+    left: -20px;
+ }
+ .right-section-Emailsend .image-sendemail {
+  width: 300px;
+ }
+ 
+ 
+
+
+}

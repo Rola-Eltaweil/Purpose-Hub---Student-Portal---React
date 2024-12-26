@@ -1,0 +1,37 @@
+.input-email {
+    height: 50px;
+    max-width: 290px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    border-right: none;
+    padding-right: 40px; 
+    height: 50px;
+    width: 343px;
+    border-radius: 12px;
+    border: 1px solid #C8C8C8;
+}
+
+@media (max-width:1290px) {
+    
+.input-email {
+        margin-bottom: 15px;
+
+}
+}
+@media (max-width:750px) {
+    
+  .input-email {
+    width: 100%;
+
+  }
+
+}
+@media (max-width:600px) {
+    
+.input-email
+   {
+    height: 40px;
+  }
+
+}
+
